@@ -1,0 +1,5 @@
+echo "Username: $USER"
+echo "Home Directory: $HOME"
+echo "Shell: $SHELL"
+echo "Hostname: $HOSTNAME"
+echo "IP address: $(hostname -I)"
