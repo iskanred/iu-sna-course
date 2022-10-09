@@ -124,9 +124,3 @@ function print_efi_enabled() {
 echo 'This script helps to check information about system and its components'
 echo '----------------------------------------------------------------------'
 main_menu
-
-
-
-
-
-
