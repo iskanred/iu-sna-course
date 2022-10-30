@@ -1,0 +1,12 @@
+[Unit]
+Description=Statistics Server
+
+[Service]
+ExecStart=/home/iskanred/Programming/iu-sna-course/week09/ex3/webserver.sh
+Slice=testslice.slice
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

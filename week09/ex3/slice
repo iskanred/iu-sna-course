@@ -1,0 +1,9 @@
+[Unit]
+Description=Systemd slice
+Before=slices.target
+
+[Slice]
+MemoryAccounting=true
+CPUAccounting=true
+MemoryMax=256M
+CPUQuota=15%
